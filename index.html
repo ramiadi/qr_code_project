@@ -23,6 +23,7 @@
       flex-direction: column;
       align-items: center;
       background-color: hsl(0, 0%, 100%);
+      background-color: hsl(212, 45%, 89%)
     }
 
     .attribution {
@@ -34,22 +35,13 @@
       color: hsl(228, 45%, 44%);
     }
 
-    .body-background {
-      background-color: hsl(212, 45%, 89%);
-      width: 90vw;
-      height: 80vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
     .qr-background {
       background-color: hsl(0, 0%, 100%);
       width: 280px;
       text-align: center;
       font-weight: 200;
       border-radius: 10px;
+      padding: 5px;
     }
 
     .elementsOfqr {
@@ -58,6 +50,7 @@
 
     .elementsOfqr .img-qr {
       border-radius: 10px;
+
     }
 
     .elementsOfqr span {
@@ -69,27 +62,26 @@
 
 <body>
 
-  <div class="body-background">
 
-    <div class="qr-background">
+  <div class="qr-background">
 
-      <div class="elementsOfqr">
-        <img src="images/image-qr-code.png" class="img-qr" alt="qr-code" width="250px" height="250px">
-        <p>
-          <span>
-            Improve your front-end skills by building projects <br>
-          </span>
-          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        </p>
-      </div>
-    </div>
-
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">ramadi</a>.
+    <div class="elementsOfqr">
+      <img src="images/image-qr-code.png" class="img-qr" alt="qr-code" width="250px" height="250px">
+      <p>
+        <span>
+          Improve your front-end skills by building projects <br>
+        </span>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
     </div>
   </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">ramadi</a>.
+  </div>
+
 </body>
 
 </html>
